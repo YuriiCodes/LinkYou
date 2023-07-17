@@ -11,12 +11,12 @@
 
 </script>
 
-<div class="navbar bg-base-100">
-    <div class="flex-1">
+<div class="navbar bg-base-100 flex flex-col sm:flex-row">
+    <div class="flex-1 pb-3 sm:pb-0">
         <a class="btn btn-ghost normal-case text-xl" href="/">LinkYou</a>
     </div>
     <div class="flex-none">
-        <ul class="menu menu-horizontal px-1 gap-5">
+        <ul class="menu flex flex-col sm:menu-horizontal px-1 gap-5">
             {#if $userData?.username}
                 <a href="/{$userData.username}" class="btn btn-primary text-center h-[100%]">Open Your Profile</a>
             {:else}
