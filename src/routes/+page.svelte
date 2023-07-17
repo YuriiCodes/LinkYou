@@ -12,7 +12,7 @@
   
     <div class="hero bg-base-200">
       <div class="hero-content text-center">
-        <div class="w-full">
+        <div class="w-full flex flex-col items-center">
           <img
                   src="/logo.png"
                   height="256"
@@ -25,7 +25,7 @@
             <a href="/{$userData.username}/edit" class="btn btn-primary">Edit Profile</a>
           {:else}
             <a href="/login" class="btn btn-primary">Get Started</a>
-            <a href="/fireship" class="btn btn-secondary">Example Profile</a>
+            <a href="/yurii" class="btn btn-secondary">Example Profile</a>
           {/if}
         </div>
       </div>

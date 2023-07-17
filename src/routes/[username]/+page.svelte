@@ -24,7 +24,7 @@
       class="mx-auto"
     />
   
-    <p class="text-xl my-8">{data.bio ?? "no bio yet..."}</p>
+    <p class="text-xl my-8">@{data.username} links👇</p>
     <ul class="list-none">
       {#each data.links as item}
       <li class="my-2">
