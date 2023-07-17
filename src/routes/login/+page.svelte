@@ -42,3 +42,9 @@
     >Sign in with Google</button
   >
 {/if}
+
+<div>
+  <a href="/login/username">
+  <h2 class="text-5xl">👉</h2>
+  </a>
+</div>

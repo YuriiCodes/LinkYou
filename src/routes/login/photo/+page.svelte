@@ -51,4 +51,8 @@
   </form>
 
   <a {href} class="btn btn-primary"> Finish </a>
+
+  <a href="/login/username">
+    <span class="text-6xl">👈</span>
+  </a>
 </AuthCheck>
