@@ -2,7 +2,7 @@
 
 A pet project that i did by following the  [Full SvelteKit Course](https://fireship.io/courses/sveltekit) on fireship.io
 
-- [Live Demo 🥋](https://kung.foo)
+- [Live Demo 🥋](https://link-you.vercel.app/)
 
 ## Usage
 
